@@ -5,55 +5,24 @@ import { ExternalLink, Github, Code2, Layers } from "lucide-react"
 const projects = [
   {
     title: "LearnFlow",
-    tagline: "AI-Powered Learning Platform",
+    tagline: "Learning & Productivity Platform",
     description:
-      "An intelligent learning platform combining interactive quizzes, AI-generated content, and smart roadmaps to personalized education.",
+      "A backend-focused learning and productivity platform designed to manage user authentication, learning progress, quizzes, and personalized roadmaps. Built to strengthen real-world API design, authentication, and frontend-backend integration skills.",
     features: [
-      "Secure Auth (OTP, JWT)",
-      "AI-Generated Quizzes",
-      "Dynamic Roadmaps",
-      "PDF Resource Library",
-      "Interactive AI Chatbot",
+      "OTP-based Authentication",
+      "JWT Authorization",
+      "User Profiling & Management",
+      "Quiz & Progress Tracking (In Progress)",
+      "Roadmaps & Learning Modules (In Progress)",
     ],
-    stack: ["FastAPI", "React", "PostgreSQL", "OpenAI", "Tailwind"],
-    github: "https://github.com",
+    stack: ["FastAPI", "React", "PostgreSQL", "TypeScript", "Tailwind CSS"],
+    github: "https://github.com", // replace with actual repo link
     demo: null,
     featured: true,
     status: "In Development",
   },
-  {
-    title: "API Gateway",
-    tagline: "Scalable Microservices Router",
-    description: "High-performance API gateway built with FastAPI for managing authentication, rate limiting, and routing across microservices.",
-    features: [
-      "Rate Limiting",
-      "JWT Authentication",
-      "Service Discovery",
-      "Request Validation",
-    ],
-    stack: ["FastAPI", "PostgreSQL", "Redis", "Docker"],
-    github: "https://github.com",
-    demo: "https://example.com",
-    featured: false,
-    status: "Production Ready",
-  },
-  {
-    title: "Quiz Master",
-    tagline: "Real-time Assessment Engine",
-    description: "A comprehensive platform for creating and conducting interactive quizzes with detailed performance analytics.",
-    features: [
-      "Real-time Scoring",
-      "Leaderboards",
-      "Custom Quiz Builder",
-      "Detailed Analytics",
-    ],
-    stack: ["FastAPI", "React", "MongoDB", "WebSockets"],
-    github: "https://github.com",
-    demo: "https://example.com",
-    featured: false,
-    status: "Completed",
-  },
 ]
+
 
 export function ProjectsSection() {
   const fadeInUp = {
