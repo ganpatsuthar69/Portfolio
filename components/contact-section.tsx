@@ -1,7 +1,7 @@
 "use client"
 
 import { motion, type Variants } from "framer-motion"
-import { Mail, Linkedin, Github, Instagram, MessageSquare } from "lucide-react"
+import { Mail, Linkedin, Github, Instagram, MessageSquare, Phone } from "lucide-react"
 
 export function ContactSection() {
   const socialLinks = [
@@ -40,6 +40,11 @@ export function ContactSection() {
           <p className="text-xl text-foreground/70 max-w-2xl mx-auto">
             Have a project in mind or just want to connect? I'm always open to discussing new opportunities.
           </p>
+          <br></br>
+          <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-primary/10 text-primary text-sm font-semibold mb-4">
+            <Phone size={16} />
+            <span>Udaipur, Rajasthan · +91 8000848923 · ganpatsutharhere@gmail.com</span>
+          </div>
         </motion.div>
 
         <div className="flex justify-center">
